@@ -1,0 +1,25 @@
+body {
+  margin: 0; 
+  display: flex; 
+  }
+canvas { 
+  display: block;
+}
+#config-menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  max-width: 200px;
+}
+label { 
+  display: block;
+  margin-top: 10px; 
+}
+
+input[type="range"], input[type="number"] { 
+  width: 100%; 
+}
